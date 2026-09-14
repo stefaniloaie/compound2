@@ -11,6 +11,7 @@ import { ConceptPageView } from './components/ConceptPageView';
 import { SEODirectory } from './components/SEODirectory';
 import { DailyChallengeModal } from './components/DailyChallengeModal';
 import { LiveWorldTicker } from './components/LiveWorldTicker';
+import { BankCompoundExploration } from './components/BankCompoundExploration';
 import { getTodayPuzzle } from './data/dailyPuzzles';
 import { CategoryId, Phenomenon } from './types';
 import { PHENOMENA } from './data/phenomena';
@@ -190,6 +191,9 @@ export default function App() {
 
             {/* Real-time Ticking World Accrual Ticker */}
             <LiveWorldTicker />
+
+            {/* Financial & Banking Compound Exploration */}
+            <BankCompoundExploration onOpenPhenomenon={handleNavigateToPhenomenonById} />
 
             {/* Daily Exponential Intuition Hook Banner */}
             <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-8 pb-4">
