@@ -1,0 +1,6 @@
+{
+  "name": "COMPOUND — The Exponential World",
+  "description": "An interactive exploration platform of what compounds, grows, and accelerates across money, biology, technology, energy, and civilization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
